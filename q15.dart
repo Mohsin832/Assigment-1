@@ -4,7 +4,7 @@
 void main() {
   List<int> number = [-2, 2, -1, 1, -4, 4, -6, 6, -7, 7, -9, 9, -5, 5];
   number.sort();
-  number.retainWhere((e) => e < 0);
+  number.retainWhere((e) => e > 0);
   print(number);
   
 }

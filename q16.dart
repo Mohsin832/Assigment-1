@@ -4,6 +4,7 @@
 
 void main() {
   List<int> numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 21, 7, 6, 54, 33, 3, 2];
-  numbers.retainWhere((e) => e % 2 == 0);
+  List evennumber = numbers.where((value) => value % 2 == 0).toList();
   print(numbers);
+  print(evennumber);
 }

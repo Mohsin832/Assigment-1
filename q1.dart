@@ -7,6 +7,7 @@ void main() {
     "Magumi fushiguro",
     "Nobara Kugisaki"
   ];
-  print("Characters from JUJUTSU KAISEN");
-  print(names);
+  names.forEach((element) {
+    print(element);
+  });
 }

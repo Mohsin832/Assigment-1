@@ -1,4 +1,5 @@
-// Q.5: Create a map with name, phone keys and store some values to it. Use
+// Q.5: Create a map with name, phone keys and store some values to it.
+// Use
 // where to find all keys that have length 4.
 
 void main() {
@@ -11,6 +12,6 @@ void main() {
     "Tayyab": 03002996616
   };
 
-  var newdata = data.keys.where((e) => e.length == 4);
-  print(newdata);
+  List<String> forkey = data.keys.where((key) => key.length == 4).toList();
+  print(forkey);
 }

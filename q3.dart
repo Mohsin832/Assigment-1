@@ -10,14 +10,19 @@ void main() {
     "Saturday",
     "Sunday"
   ];
+  days.removeLast();
   print(days);
-  days.remove("Monday");
-  days.remove("Tuesday");
-  days.remove("Wednesday");
-  days.remove("Thursday");
-  days.remove("Friday");
-  days.remove("Saturday");
-  days.remove("Sunday");
+  days.removeLast();
+  print(days);
+  days.removeLast();
+  print(days);
+  days.removeLast();
+  print(days);
+  days.removeLast();
+  print(days);
+  days.removeLast();
+  print(days);
+  days.removeLast();
+  print(days);
   
-  print(days);
 }

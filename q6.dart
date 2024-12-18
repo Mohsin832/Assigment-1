@@ -9,5 +9,7 @@ void main() {
     "India": {"Capital": "Delhi", "Currency": "INR", "Language": "Hindi"},
     "Japan": {"Capital": "Tokyo", "Currency": "yen", "Language": "Japanese"}
   };
+
   print(world["pakistan"]);
+  
 }

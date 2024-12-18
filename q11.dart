@@ -4,6 +4,7 @@
 void main() {
   List<int> number = [2, 1, 3, 4, 5, 7, 5, 4, 3, 2, 3, 4, 6, 7, 7, 9];
   int n = 3;
-  number.retainWhere((i) => i < n);
-  print(number);
+  final new1 = number.take(3);
+  print(new1);
+  
 }
